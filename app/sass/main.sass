@@ -1,0 +1,203 @@
+@import "reset"
+@import "base"
+@import "mixin"
+
+.main
+  &-block,
+  &-down
+    img
+      margin: 0 auto
+  &-down
+    position: absolute
+    bottom: 100px
+    left: 0
+    right: 0
+    text-align: center
+    font-size: 0
+    a
+      display: inline-block
+  &-block
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    &-descr
+      padding: 23px 35px 0
+      p
+        line-height: 1.63
+        letter-spacing: normal
+        text-align: center
+        color: #9f9f9f
+        &.date
+          padding-bottom: 4px
+    &-1
+      display: flex
+      align-items: center
+      justify-content: space-between
+    &-2
+      &-wrap
+        padding: 15px
+        p
+          line-height: 1.63
+          color: #9f9f9f
+          padding: 10px 0 4px
+    &-wrap
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin: 0 auto
+      text-align: center
+      padding: 15px
+      box-sizing: border-box
+      .btn
+        padding-top: 30px
+        a
+          margin: 0
+    &-2
+      display: flex
+      flex-wrap: wrap
+      &-sec
+        width: 25%
+        box-sizing: border-box
+        display: flex
+        align-items: center
+        text-align: center
+        justify-content: center
+        img
+          max-width: 100%
+    &-flag
+      padding: 56px 0 50px
+    &-txt
+      width: 705px
+      margin: 0 auto
+      text-align: center
+      p
+        font-size: 36px
+        font-weight: 300
+        font-style: normal
+        font-stretch: normal
+        line-height: 1.39
+        letter-spacing: normal
+        color: #ffffff
+  &-nav
+    ul
+      display: flex
+      align-items: center
+      justify-content: center
+      li
+        position: relative
+        padding: 0 2%
+        &:after
+          content: ''
+          background-image: url("../img/icon-point-nav.svg")
+          position: absolute
+          width: 5px
+          height: 5px
+          opacity: 0.4
+          top: 48%
+          right: -2%
+        &:last-child
+          &:after
+            display: none
+        a
+          font-size: 20px
+          font-weight: bold
+          font-style: normal
+          font-stretch: normal
+          line-height: normal
+          letter-spacing: normal
+          text-align: center
+          color: #ffffff
+          text-transform: uppercase
+          white-space: nowrap
+          transition: 0.3s
+          &:hover
+            color: $main_color_hover
+            transition: 0.3s
+  &-block-1,
+  &-block-2,
+  &-contacts
+    background-color: #fff
+  &-contacts
+    display: flex
+    justify-content: space-between
+    align-items: center
+    text-align: center
+    &-address
+      margin: 0 auto
+    &-block
+      padding: 20px 0
+      form
+        width: 225px
+      p
+        line-height: 1.63
+        letter-spacing: normal
+        color: #9f9f9f
+      span
+        font-size: 12px
+        font-weight: normal
+        font-style: italic
+        font-stretch: normal
+        line-height: 1.58
+        letter-spacing: normal
+        text-align: center
+        color: #9f9f9f
+        display: inline-block
+        margin-top: 22px
+      .h2
+        padding-bottom: 20px
+
+#footer
+  padding: 100px 0 63px
+
+.title
+  &-block
+    padding: 160px 0
+    text-align: center
+    color: #fff
+    .btn
+      padding-top: 29px
+    .h1
+      color: #fff
+      text-transform: uppercase
+    a
+      font-weight: 600
+      color: #ffffff
+
+p.coast,
+p.date
+  font-family: $font_Abril
+  font-size: 24px
+  text-align: center
+  color: $main_color_hover
+  line-height: normal
+  padding: 0
+
+.krotov
+  padding: 8px 0
+  p
+    font-size: 14px
+    font-weight: 300
+    font-style: normal
+    font-stretch: normal
+    line-height: 2.36
+    letter-spacing: normal
+    text-align: center
+    color: #999
+    a
+      font-weight: bold
+      color: #fff
+      text-decoration: underline
+
+.icon
+  margin: 0 13px
+  &-wrap
+    display: flex
+    align-items: center
+    justify-content: center
+
+.copy
+  padding-top: 28px
+  p
+    color: #9f9f9f
+    text-align: center
