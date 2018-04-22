@@ -767,3 +767,73 @@ p.date {
 .about-us p:last-child {
   padding: 0;
 }
+
+.gallery-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.gallery-content > div {
+  width: 50%;
+  text-align: center;
+}
+
+.gallery-album {
+  position: relative;
+}
+
+.gallery-album img {
+  max-width: 100%;
+}
+
+.gallery-album-descr {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.gallery-album-descr a {
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery-album-descr a:hover h3 {
+  color: #b19268;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery-album-descr a:hover p {
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery-album-descr a h3 {
+  color: #ffffff;
+  font-family: "Abril Fatface", cursive;
+  line-height: normal;
+  font-weight: normal;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery-album-descr a p {
+  padding-top: 30px;
+  color: #b19268;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}

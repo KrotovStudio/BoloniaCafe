@@ -279,3 +279,40 @@ p.date
     padding-bottom: 30px
     &:last-child
       padding: 0
+
+.gallery
+  &-content
+    display: flex
+    flex-wrap: wrap
+    > div
+      width: 50%
+      text-align: center
+  &-album
+    position: relative
+    img
+      max-width: 100%
+    &-descr
+      position: absolute
+      left: 50%
+      top: 50%
+      width: 100%
+      transform: translate(-50%, -50%)
+      a
+        display: inline-block
+        transition: 0.3s
+        &:hover h3
+          color: $main_color_hover
+          transition: 0.3s
+        &:hover p
+          text-decoration: underline
+          transition: 0.3s
+        h3
+          color: #ffffff
+          font-family: $font_Abril
+          line-height: normal
+          font-weight: normal
+          transition: 0.3s
+        p
+          padding-top: 30px
+          color: $main_color_hover
+          transition: 0.3s
