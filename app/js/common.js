@@ -119,7 +119,7 @@ $( document ).ready(function() {
     });
 });
 
-/* Маска для телефона */
+/* РњР°СЃРєР° РґР»СЏ С‚РµР»РµС„РѕРЅР° */
 $(document).ready(function(){
     $('input[type="tel"]').inputmask({
         showMaskOnHover: true

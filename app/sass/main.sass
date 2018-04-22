@@ -188,6 +188,10 @@ p.date
       font-weight: bold
       color: #fff
       text-decoration: underline
+      transition: 0.3s
+      &:hover
+        text-decoration: none
+        transition: 0.3s
 
 .icon
   margin: 0 13px
@@ -201,3 +205,67 @@ p.date
   p
     color: #9f9f9f
     text-align: center
+
+.page-content
+  background-color: #fff
+
+.bread
+  padding: 30px
+  font-size: 0
+  display: flex
+  align-items: center
+  .arrow
+    background-image: url(../img/icon-arrow-bread.svg)
+    width: 6px
+    height: 17px
+    display: inline-block
+    margin: 0 17px
+    background-repeat: no-repeat
+    background-position: center center
+  .custom-page
+    font-size: 16px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.63
+    letter-spacing: normal
+    text-align: left
+    color: #393939
+  a
+    background-image: url(../img/icon-home.svg)
+    width: 20px
+    height: 18px
+    display: inline-block
+    transition: 0.3s
+    &:hover
+      background-image: url(../img/icon-home-hover.svg)
+      transition: 0.3s
+
+.title-page
+  padding-bottom: 34px
+  .h1
+    text-transform: uppercase
+
+.event-block
+  display: flex
+  padding-bottom: 50px
+  align-items: center
+  > div
+    width: 50%
+    box-sizing: border-box
+    img
+      max-width: 100%
+  .event-descr
+    padding-left: 50px
+    padding-right: 15px
+    text-align: left
+    p
+      color: #9f9f9f
+    p.date
+      text-align: left
+      color: $main_color_hover
+      padding-bottom: 3px
+    .btn
+      text-align: left
+      a
+        margin-top: 40px
