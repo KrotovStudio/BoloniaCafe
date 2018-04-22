@@ -237,6 +237,7 @@ body {
   transition: 0.3s;
 }
 
+textarea,
 input {
   height: 43px;
   width: 100%;
@@ -252,6 +253,13 @@ input {
   margin: 7px 0;
   font-size: 16px;
   color: #9f9f9f;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 0;
+  height: 143px;
 }
 
 #table-form {
@@ -313,6 +321,16 @@ input {
 .table-form-open {
   margin-bottom: 50px;
   margin-left: 280px;
+}
+
+form + span {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.58;
+  color: #9f9f9f;
+  display: inline-block;
+  margin-top: 22px;
 }
 
 .main-block img, .main-down img {
@@ -836,4 +854,38 @@ p.date {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+
+.contacts-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.contacts-block {
+  width: 30%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.contacts-block .h2 {
+  padding-bottom: 20px;
+}
+
+.contacts-block p, .contacts-block a {
+  line-height: 1.63;
+  color: #9f9f9f;
+}
+
+.contacts-block a:hover {
+  color: #b19268;
+}
+
+.contacts-block .subscribe-block {
+  width: 225px;
+  margin: 0 auto;
 }
