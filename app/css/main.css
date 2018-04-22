@@ -752,3 +752,18 @@ p.date {
 .event-block .event-descr .btn a {
   margin-top: 40px;
 }
+
+.about-us {
+  padding: 40px 50px 45px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #9f9f9f;
+  padding-bottom: 30px;
+}
+
+.about-us p:last-child {
+  padding: 0;
+}
