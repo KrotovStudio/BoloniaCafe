@@ -911,3 +911,91 @@ p.date {
 .error-content .btn a {
   margin-top: 40px;
 }
+
+.menu-content-block {
+  padding-bottom: 30px;
+}
+
+.menu-content-sector-name {
+  padding-bottom: 30px;
+}
+
+.menu-content-sector-name .h3 {
+  text-transform: uppercase;
+}
+
+.menu-content-block-name {
+  padding-bottom: 4px;
+}
+
+.menu-content-block-name .h4 {
+  text-align: left;
+}
+
+.menu-content-block-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.menu-content-block-descr.add {
+  padding-top: 3px;
+}
+
+.menu-content-block-descr.add p.name-menu {
+  color: #393939;
+  font-weight: bold;
+}
+
+.menu-content-block-descr.add p.coast {
+  position: static;
+  font-size: 20px;
+}
+
+.menu-content-block-descr p.coast {
+  font-family: "Abril Fatface", cursive;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #b19268;
+  min-width: 70px;
+  position: relative;
+  top: -20px;
+}
+
+.menu-content-block-descr p.name-menu {
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9f9f9f;
+  max-width: 300px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+.menu-content-menu {
+  width: 47%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu-content-menu-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
