@@ -1075,6 +1075,13 @@ p.date {
   box-sizing: border-box;
 }
 
+.wine-content-wine-block .h3 {
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 33px;
+  padding-top: 10px;
+}
+
 .wine-content-sector-name {
   font-family: "Abril Fatface", cursive;
 }
