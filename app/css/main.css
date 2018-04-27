@@ -580,6 +580,18 @@ form + span {
   padding: 100px 0 63px;
 }
 
+.title-page {
+  padding-bottom: 34px;
+}
+
+.title-page .h1 {
+  text-transform: uppercase;
+}
+
+.title-page.menu {
+  padding-top: 10px;
+}
+
 .title-block {
   padding: 160px 0;
   text-align: center;
@@ -626,7 +638,6 @@ p.date {
 }
 
 .krotov p a {
-  font-weight: bold;
   color: #fff;
   text-decoration: underline;
   -webkit-transition: 0.3s;
@@ -717,14 +728,6 @@ p.date {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-}
-
-.title-page {
-  padding-bottom: 34px;
-}
-
-.title-page .h1 {
-  text-transform: uppercase;
 }
 
 .event-block {
@@ -932,6 +935,10 @@ p.date {
   text-align: left;
 }
 
+.menu-content-block-name p {
+  color: #9f9f9f;
+}
+
 .menu-content-block-descr {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -939,6 +946,58 @@ p.date {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.menu-content-block-descr.list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.menu-content-block-descr.list .list-name {
+  font-family: "Abril Fatface", cursive;
+  font-size: 18px;
+  line-height: normal;
+  color: #393939;
+}
+
+.menu-content-block-descr.list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.menu-content-block-descr.list li .names {
+  color: #393939;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: normal;
+  padding-right: 20px;
+  width: 120px;
+  min-width: 120px;
+}
+
+.menu-content-block-descr.list li .descr {
+  color: #9f9f9f;
+  line-height: 1.25;
+  width: 100%;
+}
+
+.menu-content-block-descr.list li .coast {
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+  color: #b19268;
+  position: static;
 }
 
 .menu-content-block-descr.add {
@@ -967,7 +1026,7 @@ p.date {
   color: #b19268;
   min-width: 70px;
   position: relative;
-  top: -20px;
+  top: -19px;
 }
 
 .menu-content-block-descr p.name-menu {
@@ -975,11 +1034,16 @@ p.date {
   letter-spacing: normal;
   text-align: left;
   color: #9f9f9f;
-  max-width: 300px;
+  max-width: 315px;
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-right: 15px;
+}
+
+.menu-content-block-descr p.name-menu span {
+  font-weight: bold;
+  padding-right: 2px;
 }
 
 .menu-content-menu {
@@ -998,4 +1062,45 @@ p.date {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.wine-content-block {
+  padding-bottom: 30px;
+}
+
+.wine-content-wine-block {
+  width: 47%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wine-content-sector-name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.wine-content-wine-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  padding-top: 26px;
+}
+
+.wine-content-block-name h4 {
+  text-align: left;
+}
+
+.wine-content-block-descr .name-wine {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #393939;
+  padding-top: 13px;
 }

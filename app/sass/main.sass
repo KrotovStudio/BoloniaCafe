@@ -151,6 +151,12 @@
   padding: 100px 0 63px
 
 .title
+  &-page
+    padding-bottom: 34px
+    .h1
+      text-transform: uppercase
+    &.menu
+      padding-top: 10px
   &-block
     padding: 160px 0
     text-align: center
@@ -163,6 +169,7 @@
     a
       font-weight: 600
       color: #ffffff
+
 
 p.coast,
 p.date
@@ -185,7 +192,6 @@ p.date
     text-align: center
     color: #999
     a
-      font-weight: bold
       color: #fff
       text-decoration: underline
       transition: 0.3s
@@ -240,11 +246,6 @@ p.date
     &:hover
       background-image: url(../img/icon-home-hover.svg)
       transition: 0.3s
-
-.title-page
-  padding-bottom: 34px
-  .h1
-    text-transform: uppercase
 
 .event-block
   display: flex
@@ -363,9 +364,42 @@ p.date
     padding-bottom: 4px
     .h4
       text-align: left
+    p
+      color: #9f9f9f
   &-block-descr
     display: flex
     justify-content: space-between
+    &.list
+      flex-direction: column
+      .list-name
+        font-family: $font_Abril
+        font-size: 18px
+        line-height: normal
+        color: #393939
+      li
+        display: flex
+        align-items: baseline
+        justify-content: space-between
+        padding: 4px 0
+        .names
+          color: #393939
+          font-weight: bold
+          line-height: 1.25
+          letter-spacing: normal
+          padding-right: 20px
+          width: 120px
+          min-width: 120px
+        .descr
+          color: #9f9f9f
+          line-height: 1.25
+          width: 100%
+        .coast
+          font-family: $font_Abril
+          font-size: 20px
+          font-weight: normal
+          line-height: normal
+          color: $main_color_hover
+          position: static
     &.add
       padding-top: 3px
       p.name-menu
@@ -386,16 +420,20 @@ p.date
       color: $main_color_hover
       min-width: 70px
       position: relative
-      top: -20px
+      top: -19px
     p.name-menu
       line-height: 1.63
       letter-spacing: normal
       text-align: left
       color: #9f9f9f
-      max-width: 300px
+      max-width: 315px
       width: 100%
       box-sizing: border-box
       padding-right: 15px
+      span
+        font-weight: bold
+        padding-right: 2px
+
   &-menu
     width: 47%
     box-sizing: border-box
@@ -404,3 +442,32 @@ p.date
       padding: 0 50px
       justify-content: space-between
       flex-wrap: wrap
+      padding-bottom: 30px
+
+
+.wine
+  &-content
+    &-block
+      padding-bottom: 30px
+    &-wine-block
+      width: 47%
+      box-sizing: border-box
+    &-sector-name
+      font-family: $font_Abril
+    &-wine-wrap
+      display: flex
+      padding: 0 50px
+      justify-content: space-between
+      flex-wrap: wrap
+      padding-bottom: 30px
+      padding-top: 26px
+    &-block-name
+      h4
+        text-align: left
+    &-block-descr
+      .name-wine
+        font-size: 18px
+        font-weight: 600
+        line-height: normal
+        color: #393939
+        padding-top: 13px
