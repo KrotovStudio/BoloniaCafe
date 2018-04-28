@@ -28,10 +28,10 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="page-menu.html">Menu</a></li>
-                            <li><a href="404.html">Wine</a></li>
+                            <li><a href="page-wine.html">Wine</a></li>
                             <li><a href="page-events.html">Events</a></li>
                             <li><a href="page-gallery.html">Gallery</a></li>
-                            <li><a href="404.html">Deli</a></li>
+                            <li><a href="page-deli.html">Deli</a></li>
                             <li><a href="page-about.html">About us</a></li>
                             <li><a href="page-contacts.html">Contacts</a></li>
                         </ul>
@@ -1024,8 +1024,42 @@
 
 </footer>
 
+<!--Form Close-->
+<div id="table-form">
 
+    <!-- Btn open Table-form-->
+    <div class="table-form-open"></div>
 
+    <div class="table-form-wrap">
+        <div class="table-form-close"></div>
+
+        <div class="table-form">
+            <h3 class="h2">Book a Table</h3>
+            <form>
+                <label><input type="text" placeholder="Name" required></label>
+                <label><input type="tel" placeholder="Phone" required></label>
+                <label><input type="text" placeholder="Details (time, places)" required></label>
+                <button class="btn-book" type="submit">Book</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Thank You-->
+<div id="thanks" class="white-popup-block mfp-hide modal-thanks">
+    <h3 class="h2">Your message was successfully sent</h3>
+</div>
+
+<!--Subscribe-->
+<div id="subscribe" class="white-popup-block mfp-hide modal-subscribe">
+    <h3 class="h2">Thank you for subscribing</h3>
+</div>
+
+<!--Error-->
+<div id="error" class="white-popup-block mfp-hide modal-error">
+    <h3>Error!!!</h3>
+    <p>Please, call us. Form don`t work :(</p>
+</div>
 
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"

@@ -1111,3 +1111,105 @@ p.date {
   color: #393939;
   padding-top: 13px;
 }
+
+.deli-img-text {
+  padding: 38px 15px;
+}
+
+.deli-img-text p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9f9f9f;
+}
+
+.deli-sector-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 23px;
+}
+
+.deli-sector-wrap-about {
+  width: 50%;
+}
+
+.deli-sector-wrap-about img {
+  display: block;
+  max-width: 100%;
+}
+
+.deli-sector-wrap-txt {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.deli-sector-wrap-txt p {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
+  line-height: normal;
+}
+
+.deli-slider {
+  padding-top: 84px;
+}
+
+.deli-slider .h4 {
+  max-width: 840px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.deli-contacts {
+  padding-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.deli-contacts-block {
+  width: 30%;
+}
+
+.deli-contacts-block img {
+  max-width: 100%;
+}
+
+.deli-contacts-block .contacts-block {
+  width: 100%;
+  padding: 20px 0;
+}
