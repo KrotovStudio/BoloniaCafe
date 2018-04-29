@@ -27,11 +27,13 @@ $( document ).ready(function() {
     });
 
 //    Close / open mobile menu
-    $('.open-nav').click(function(){
-        $('.main-nav').addClass('active');
+    $('.btn-mobile').click(function(){
+        $('.main-nav, .btn-mobile-close').show();
+        $('html').css('overflow','hidden');
     });
-    $('.close-nav, a').click(function(){
-        $('.main-nav').removeClass('active');
+    $('.btn-mobile-close').click(function(){
+        $('.main-nav, .btn-mobile-close').hide();
+        $('html').css('overflow','auto');
     });
 
 

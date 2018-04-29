@@ -49,7 +49,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
   background-color: #f6f4f1;
 }
 
@@ -320,7 +319,6 @@ textarea {
 
 .table-form-open {
   margin-bottom: 50px;
-  margin-left: 280px;
 }
 
 form + span {
@@ -333,8 +331,21 @@ form + span {
   margin-top: 22px;
 }
 
+.bg-img {
+  width: 100%;
+  background-size: cover;
+  min-height: 100%;
+  background-position: center center;
+}
+
+.btn-mobile-close,
+.btn-mobile {
+  display: none;
+}
+
 .main-block img, .main-down img {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .main-down {
@@ -384,6 +395,7 @@ form + span {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .main-block-2-wrap {
@@ -411,6 +423,8 @@ form + span {
   padding: 15px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  width: 100%;
+  min-width: 325px;
 }
 
 .main-block-wrap .btn {
@@ -429,8 +443,15 @@ form + span {
   flex-wrap: wrap;
 }
 
+.main-block-2 > div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main-block-2-sec {
-  width: 25%;
+  width: 50%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: -webkit-box;
@@ -535,14 +556,12 @@ form + span {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   text-align: center;
 }
 
 .main-contacts-address {
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-contacts-block {
@@ -750,6 +769,10 @@ p.date {
   max-width: 100%;
 }
 
+.event-block .event-img-mob {
+  display: none;
+}
+
 .event-block .event-descr {
   padding-left: 50px;
   padding-right: 15px;
@@ -772,6 +795,10 @@ p.date {
 
 .event-block .event-descr .btn a {
   margin-top: 40px;
+}
+
+.about-img img {
+  max-width: 100%;
 }
 
 .about-us {
@@ -1024,7 +1051,8 @@ p.date {
   letter-spacing: normal;
   text-align: right;
   color: #b19268;
-  min-width: 70px;
+  min-width: 80px;
+  width: 80px;
   position: relative;
   top: -19px;
 }
