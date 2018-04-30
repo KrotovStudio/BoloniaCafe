@@ -104,21 +104,6 @@ $( document ).ready(function() {
         $('.table-form-wrap').removeClass('active');
         $('.table-form-open').css('opacity','1');
     });
-
-    //scroll table transparent
-    $(function() {
-        var header = $("#table-form");
-        $(window).scroll(function(scrlevt) {
-            scrlevt.preventDefault();
-            var scroll = $(window).scrollTop();
-
-            if (scroll > 90) {
-                $('.table-form-wrap').removeClass('active');
-                $('.table-form-open').css('opacity','1');
-            }
-            return false;
-        });
-    });
 });
 
 /* Маска для телефона */

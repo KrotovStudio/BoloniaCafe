@@ -263,7 +263,7 @@ textarea {
 
 #table-form {
   position: fixed;
-  top: 218px;
+  top: 219px;
   right: 0;
   z-index: 10;
 }
@@ -286,7 +286,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  right: -300px;
+  right: -360px;
   opacity: 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -309,16 +309,13 @@ textarea {
   width: 80px;
   height: 80px;
   cursor: pointer;
+  margin-bottom: -80px;
 }
 
 .table-form-close {
   background-image: url("../img/icon-close.svg");
   position: relative;
   z-index: 11;
-}
-
-.table-form-open {
-  margin-bottom: 50px;
 }
 
 form + span {
@@ -1244,4 +1241,53 @@ p.date {
 
 .contacts-map img {
   max-width: 100%;
+}
+
+.icon-1 {
+  width: 27px;
+  height: 20px;
+}
+
+.icon-2 {
+  width: 20px;
+  height: 27px;
+}
+
+.icon-3 {
+  width: 26px;
+  height: 15px;
+}
+
+.icon-4 {
+  width: 13px;
+  height: 24px;
+}
+
+.icon-5 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-mouse {
+  width: 30px;
+  height: 43px;
+}
+
+.icon a {
+  display: block;
+  height: inherit;
+}
+
+.icon-svg {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  fill: #fff;
+}
+
+.icon-svg:hover {
+  fill: #b19268;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
